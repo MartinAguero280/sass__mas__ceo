@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #1c1c1c;
+  margin: 0;
+}
+body div .container-fluid-mod {
+  padding: 0;
+  max-width: 1400px;
+  margin: auto;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: color #1c1c1c;
+  margin: 0;
+}
+body .container-fluid-mod {
+  padding: 0;
+  max-width: 1400px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #1C1C1C;
+  font-weight: bold;
+  z-index: 1;
+}
+header .LogoManoniMotoRep {
+  width: 200px;
+  height: 60px;
+  align-items: center;
+}
+header nav div div ul li {
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+
+@media (min-width: 720px) {
+  header .container__logo__manonimotorep {
+    transition: all 0.5s;
+  }
+}
+main .container__hero {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  background-image: url(../images/imagen_background_hero.jpg);
+}
+main .container__hero .container__hero__texto {
+  margin: 1rem 2rem;
+  font-weight: bold;
+}
+main .container__hero .container__hero__texto h1 {
+  font-weight: bold;
+}
+main .container__hero .container__hero__imagen {
+  width: 22rem;
+  height: 11rem;
+  margin: 1rem 0;
+}
+main .container__hero .container__hero__imagen a .hero__imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .container__productos__destacados__texto {
+  width: 100%;
+  background-color: white;
+}
+main .container__productos__destacados__texto .pruductos__destacados__texto {
+  text-align: center;
+  margin: 3rem 0;
+  padding: 5px 0;
+  font-weight: bold;
+}
+main .container__productos__destacados {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin: 2rem 0;
+}
+main .container__productos__destacados .container__fotoproducto__infoproducto {
+  width: 18rem;
+  height: 18rem;
+}
+main .container__productos__destacados .container__fotoproducto__infoproducto .container__foto__producto {
+  width: 18rem;
+  height: 16rem;
+}
+main .container__productos__destacados .container__fotoproducto__infoproducto .container__foto__producto .foto__producto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+main .container__productos__destacados .container__infoproducto {
+  width: 18rem;
+  height: 2rem;
+  background-color: white;
+}
+main .container__productos__destacados .container__infoproducto .info__producto {
+  font-size: x-large;
+  font-weight: bold;
+  border-top: 1px solid black;
+}
+main .container__todosLosProductos {
+  text-align: center;
+}
+main .container__todosLosProductos form .boton__todosLosProductos {
+  font-size: large;
+  padding: 0.5rem;
+  font-weight: bold;
+  border: 1px solid color black;
+  border-radius: 15px;
+  background-color: white;
+}
+
+@media (min-width: 720px) {
+  main .container__hero {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 6rem 0;
+  }
+  main .container__hero .container__hero__texto {
+    width: 25rem;
+    transition: all 0.5s;
+  }
+  main .container__hero .container__hero__imagen {
+    width: 25rem;
+    margin-right: 2rem;
+    transition: all 0.5s;
+  }
+  main .container__productos__destacados__texto {
+    width: 100%;
+    background-color: white;
+  }
+  main .container__productos__destacados__texto .pruductos__destacados__texto {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 5px 0;
+    font-weight: bold;
+  }
+  main .container__productos__destacados {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  main .container__productos__destacados .container__fotoproducto__infoproducto {
+    width: 15rem;
+    height: 15rem;
+    transition: all 0.5s;
+  }
+  main .container__productos__destacados .container__fotoproducto__infoproducto .container__foto__producto {
+    width: 15rem;
+    height: 13rem;
+  }
+  main .container__productos__destacados .container__fotoproducto__infoproducto .container__foto__producto .foto__producto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  main .container__productos__destacados .container__infoproducto {
+    width: 15rem;
+    height: 2rem;
+    background-color: white;
+  }
+  main .container__productos__destacados .container__infoproducto .info__producto {
+    font-size: large;
+    font-weight: bold;
+  }
+  main .container__todosLosProductos form .boton__todosLosProductos {
+    transition: all 0.25s;
+  }
+}
+.container__data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.container__data .data__parrafo {
+  text-align: center;
+  padding: 5px 0;
+  margin-bottom: 0;
+}
+
+.container__form__index {
+  width: 100;
+  background-color: white;
+  padding: 1rem 0;
+  margin: 2rem 0;
+  font-weight: bold;
+}
+.container__form__index .parrafo__form__index {
+  text-align: center;
+}
+.container__form__index .form__index {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  align-items: center;
+}
+.container__form__index .form__index .mail__form__index {
+  width: 15rem;
+  height: 3rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.container__form__index .form__index .boton__form__index {
+  border: none;
+  font-size: 55px;
+  background-color: transparent;
+}
+.container__form__index .form__index .boton__form__index .icono__form__index {
+  color: #1c1c1c;
+}
+
+@media (min-width: 720px) {
+  .container__data {
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+  }
+
+  .container__form__index .parrafo__form__index {
+    text-align: start;
+    padding-left: 10%;
+  }
+  .container__form__index .form__index {
+    justify-content: center;
+    gap: 5%;
+  }
+  .container__form__index .form__index .mail__form__index {
+    width: 80%;
+    height: 2rem;
+  }
+  .container__form__index .form__index .boton__form__index {
+    font-size: 50px;
+    transition: all 0.5s;
+  }
+}
+footer {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  padding: 2rem 0;
+}
+footer div ul li a .boton__facebook__footer {
+  border: none;
+  font-size: 60px;
+  background-color: transparent;
+  margin: 0 0.5rem;
+}
+footer div ul li a .boton__facebook__footer .icono__facebook__footer {
+  color: black;
+}
+footer div ul li a .boton__instagram__footer {
+  border: none;
+  font-size: 60px;
+  background-color: transparent;
+  margin: 0 0.5rem;
+}
+footer div ul li a .boton__instagram__footer .icono__facebook__footer {
+  color: black;
+}
+footer .container__llevameHaciaArriba {
+  position: fixed;
+  right: 0.9rem;
+  bottom: 5.5rem;
+  background-color: transparent;
+}
+footer .container__llevameHaciaArriba a .boton__llevamehaciaarriba {
+  border: none;
+  font-size: 50px;
+  background-color: transparent;
+}
+footer .container__llevameHaciaArriba a .boton__llevamehaciaarriba .icono__llevameHaciaArriba {
+  color: black;
+}
+footer .container__whatsapp {
+  position: fixed;
+  right: 0.5rem;
+  bottom: 2px;
+  background-color: transparent;
+}
+footer .container__whatsapp a .boton__whatsapp {
+  border: none;
+  font-size: 75px;
+  background-color: transparent;
+}
+footer .container__whatsapp a .boton__whatsapp .icono__whatsapp {
+  color: #25D366;
+}
+
+@media (min-width: 720px) {
+  footer {
+    flex-direction: row;
+    text-align: start;
+    align-items: start;
+    justify-content: space-around;
+  }
+  footer div ul li a .boton__facebook__footer {
+    font-size: 50px;
+    margin: 0 0.5rem;
+  }
+  footer div ul li a .boton__instagram__footer {
+    font-size: 50px;
+    margin: 0 0.5rem;
+  }
+  footer .container__llevameHaciaArriba {
+    bottom: 5.5rem;
+    transition: all 0.5s;
+  }
+  footer .container__llevameHaciaArriba a .boton__llevamehaciaarriba {
+    font-size: 50px;
+  }
+  footer .container__whatsapp {
+    transition: all 0.5s;
+  }
+  footer .container__whatsapp a .boton__whatsapp {
+    font-size: 75px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

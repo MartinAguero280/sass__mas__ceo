@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #1c1c1c;
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #1C1C1C;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.LogoManoniMotoRep {
+    width: 200px;
+    height: 60px;
+    align-items: center;
+}
+
+header nav div ul li {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
+.container-fluid-mod {
+    padding: 0;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.container__hero {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    background-image: url(../images/imagen_background_hero.jpg);
+}
+
+.container__hero__texto {
+    margin: 1rem 2rem;
+    font-weight: bold;
+}
+
+.container__hero__texto h1 {
+    font-weight: bold;
+}
+
+.container__hero__imagen {
+    width: 22rem;
+    height: 11rem;
+    margin: 1rem 0;
+}
+
+.hero__imagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container__productos__destacados__texto {
+    width: 100%;
+    background-color: white;
+}
+
+.pruductos__destacados__texto {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.container__productos__destacados {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin: 2rem 0;
+}
+
+.container__fotoproducto__infoproducto {
+    width: 18rem;
+    height: 18rem;
+}
+
+.container__foto__producto {
+    width: 18rem;
+    height: 16rem;
+}
+
+.foto__producto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container__infoproducto {
+    width: 18rem;
+    height: 2rem;
+    background-color: white;
+}
+
+.info__producto {
+    font-size: x-large;
+    font-weight: bold;
+    border-top: 1px solid black;
+}
+
+.container__todosLosProductos {
+    text-align: center;
+}
+
+.boton__todosLosProductos {
+    font-size: large;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: 1px solid color black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.container__data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.data__parrafo {
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 0;
+}
+
+.container__form__index {
+    width: 100;
+    background-color: white;
+    padding: 1rem 0;
+    margin: 2rem 0;
+    font-weight: bold;
+}
+
+.parrafo__form__index {
+    text-align: center;
+}
+
+.form__index {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    align-items: center;
+}
+
+.mail__form__index {
+    width: 15rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.boton__form__index {
+    border: none;
+    font-size: 55px;
+    background-color: transparent;
+}
+
+.icono__form__index {
+    color: #1c1c1c;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+
+.boton__facebook__footer {
+    border: none;
+    font-size: 60px;
+    background-color: transparent;
+    margin: 0 0.5rem;
+}
+
+.icono__facebook__footer {
+    color: black;
+}
+
+.boton__instagram__footer {
+    border: none;
+    font-size: 60px;
+    background-color: transparent;
+    margin: 0 0.5rem;
+}
+
+.icono__instagram__footer {
+    color: black;
+}
+
+.container__llevameHaciaArriba {
+    position: fixed;
+    right: 0.9rem;
+    bottom: 5.5rem;
+    background-color: transparent;
+}
+
+.boton__llevamehaciaarriba {
+    border: none;
+    font-size: 50px;
+    background-color: transparent;
+}
+
+.icono__llevameHaciaArriba {
+    color: black;
+}
+
+.container__whatsapp {
+    position: fixed;
+    right: 0.5rem;
+    bottom: 2px;
+    background-color: transparent;
+}
+
+.boton__whatsapp {
+    border: none;
+    font-size: 75px;
+    background-color: transparent;
+}
+
+.icono__whatsapp {
+    color: #25D366;
+}
+
+/*paginas*/
+
+.h1__paginas {
+    color: white;
+    padding: 1rem 0;
+}
+
+.h1__paginas h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Productos*/
+
+.parrafos__productos {
+    color: white;
+}
+
+.parrafo__productos {
+    font-weight: bold;
+    text-align: center;
+}
+
+.container__pagina__productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container__fotoproducto__infoproducto__paginaproductos {
+    width: 18rem;
+    height: 18rem;
+}
+
+.container__mostrarmas {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.boton__mostrarmas {
+    font-size: large;
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+    border: 1px solid color black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+/*Contacto*/
+
+.container__pagina__contacto {
+    padding: 1rem 0;
+}
+
+.container__pagina__contacto__1 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+.container__pagina__contacto__2 {
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.icono__facebook__contacto {
+    color: white;
+}
+
+.icono__instagram__contacto {
+    color: white;
+}
+
+/*Acerca de*/
+
+.container__pagina__acercade {
+    padding: 1rem 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto__acercade {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container__imagen__acercade {
+    margin: 1rem 0;
+}
+
+/*Carrito*/
+
+.container__parrafo__carrito {
+    background-color: aqua;
+}
+
+.parrafo__carrito {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container__boton__carrito {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.boton__carrito {
+    font-size: large;
+    padding: 0.5rem;
+    font-weight: bold;
+    border: 1px solid color black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+/*media destock*/
+
+@media (min-width: 720px) {
+
+    .container__logo__manonimotorep {
+        transition: all 0.5s;
+    }
+
+    .container__hero {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 6rem 0;
+    }
+
+    .container__hero__texto {
+        width: 25rem;
+        transition: all 0.5s;
+    }
+
+    .container__hero__imagen {
+        width: 25rem;
+        margin-right: 2rem;
+        transition: all 0.5s;
+    }
+
+    .container__productos__destacados {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .container__fotoproducto__infoproducto {
+        width: 15rem;
+        height: 15rem;
+        transition: all 0.5s;
+    }
+    
+    .container__foto__producto {
+        width: 15rem;
+        height: 13rem;
+    }
+    
+    .foto__producto {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .container__infoproducto {
+        width: 15rem;
+        height: 2rem;
+        background-color: white;
+    }
+    
+    .info__producto {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .boton__todosLosProductos {
+        transition: all 0.25s;
+    }
+
+    .container__data {
+        flex-direction: row;
+        justify-content: center;
+        gap: 5%;
+    }
+
+    .parrafo__form__index {
+        text-align: start;
+        padding-left: 10%;
+    }
+
+    .form__index {
+        justify-content: center;
+        gap: 5%;
+    }
+
+    .mail__form__index {
+        width: 80%;
+        height: 2rem;
+    }
+
+    .boton__form__index {
+        font-size: 50px;
+        transition: all 0.5s;
+    }
+
+    footer {
+        flex-direction: row;
+        text-align: start;
+        align-items: start;
+        justify-content: space-around;
+    }
+
+    .boton__facebook__footer {
+        font-size: 50px;
+        margin: 0 0.5rem;
+    }
+    .boton__instagram__footer {
+        font-size: 50px;
+        margin: 0 0.5rem;
+    }
+
+    .container__llevameHaciaArriba {
+        bottom: 5.5rem;
+        transition: all 0.5s;
+    }
+    
+    .boton__llevamehaciaarriba {
+        font-size: 50px;
+    }
+
+    .container__whatsapp {
+        transition: all 0.5s;
+    }
+    
+    .boton__whatsapp {
+        font-size: 75px;
+    }
+
+    /*productos*/
+
+    .container__pagina__productos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .container__fotoproducto__infoproducto__paginaproductos {
+        width: 15rem;
+        height: 15rem;
+        transition: all 0.5s;
+    }
+
+    .boton__mostrarmas {
+        transition: all 0.25s;
+    }
+
+    /*contacto*/
+
+    .container__pagina__contacto__1 {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .container__pagina__contacto__2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+    }
+
+    /*Quienes Somos*/
+
+    .texto__acercade {
+        font-size: medium;
+    }
+
+    .container__imagen__acercade {
+        width: 50%;
+        margin: 2rem 0;
+    }
+
+    /*Carrito*/
+    
+    .container__boton__carrito {
+        text-align: start;
+    }
+
+    .boton__carrito {
+        transition: all 0.25s;
+    }
+
+
+    /*animaciones*/
+
+    /*Index*/
+
+    .container__logo__manonimotorep:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    .container__hero__texto:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    .container__hero__imagen:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    .container__fotoproducto__infoproducto:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    .boton__todosLosProductos:hover {
+        background-color: #CDCDCD;
+        transition: all 0.25s;
+    }
+
+    .boton__form__index:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    .container__llevameHaciaArriba:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    .container__whatsapp:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    /*Productos*/
+
+    .container__fotoproducto__infoproducto__paginaproductos:hover {
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    .boton__mostrarmas:hover {
+        background-color: #CDCDCD;
+        transition: all 0.25s;
+    }
+
+    /*Carrito*/
+
+    .boton__carrito:hover {
+        background-color: #CDCDCD;
+        transition: all 0.25s;
+    }
+
+}
+
+@media (min-width: 1485px) {
+    .icono__llevameHaciaArriba {
+        color: white;
+    }
+}

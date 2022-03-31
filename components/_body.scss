@@ -1,0 +1,13 @@
+@import "../base/variables";
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: $color-principal;
+    margin: 0;
+    
+    .container-fluid-mod {
+        padding: 0;
+        max-width: 1400px;
+        margin: auto; 
+    }
+}
