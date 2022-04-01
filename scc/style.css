@@ -21,7 +21,7 @@ a {
 /*body*/
 body {
   font-family: "Lato", sans-serif;
-  background-color: #1C1C1C;
+  background-color: #d83737;
   margin: 0;
 }
 body .container-fluid-mod {
@@ -36,7 +36,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: background-color white;
+  background-color: white;
   position: sticky;
   top: 0;
   border-bottom: 1px solid #1C1C1C;
@@ -86,7 +86,7 @@ main .container__hero .container__hero__imagen a .hero__imagen {
 }
 main .container__productos__destacados__texto {
   width: 100%;
-  background-color: background-color white;
+  background-color: white;
 }
 main .container__productos__destacados__texto .pruductos__destacados__texto {
   text-align: center;
@@ -134,7 +134,7 @@ main .container__todosLosProductos form .boton__todosLosProductos {
   font-weight: bold;
   border: 1px solid color black;
   border-radius: 15px;
-  background-color: background-color white;
+  background-color: white;
 }
 
 @media (min-width: 720px) {
@@ -199,7 +199,7 @@ main .container__todosLosProductos form .boton__todosLosProductos {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: background-color white;
+  background-color: white;
   margin-top: 3rem;
   margin-bottom: 2rem;
   font-weight: bold;
@@ -212,7 +212,7 @@ main .container__todosLosProductos form .boton__todosLosProductos {
 
 .container__form__index {
   width: 100;
-  background-color: background-color white;
+  background-color: white;
   padding: 1rem 0;
   margin: 2rem 0;
   font-weight: bold;
@@ -270,7 +270,7 @@ main .container__todosLosProductos form .boton__todosLosProductos {
 /*footer*/
 footer {
   width: 100%;
-  background-color: background-color white;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;

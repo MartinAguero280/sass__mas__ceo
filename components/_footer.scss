@@ -1,7 +1,10 @@
+@import "../base/variables";
+
+/*footer*/
 
 footer {
     width: 100%;
-    background-color: white;
+    background-color: $bg__partes;
     display: flex;
     flex-direction: column;
     align-items: center;

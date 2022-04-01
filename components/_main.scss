@@ -1,3 +1,6 @@
+@import "../base/variables";
+
+/*main*/
 
 main {
     .container__hero {
@@ -32,7 +35,7 @@ main {
     }
     .container__productos__destacados__texto {
         width: 100%;
-        background-color: white;
+        background-color: $bg__partes;
         
         .pruductos__destacados__texto {
             text-align: center;
@@ -88,7 +91,7 @@ main {
                 font-weight: bold;
                 border: 1px solid color black;
                 border-radius: 15px;
-                background-color: white;
+                background-color: $bg__partes;
             }
         }
     }

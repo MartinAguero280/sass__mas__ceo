@@ -1,17 +1,20 @@
+@import "../base/variables";
+
+/*header*/
 
 header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    background-color: $bg__partes; 
     position: sticky;
     top: 0;
     border-bottom: 1px solid #1C1C1C;
     font-weight: bold;
     z-index: 1;
 
-    .LogoManoniMotoRep {
+    .LogoManoniMotoRep { 
         width: 200px;
         height: 60px;
         align-items: center;  

@@ -1,9 +1,12 @@
+@import "../base/variables";
+
+/*form*/
 
 .container__data {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: $bg__partes;
     margin-top: 3rem;
     margin-bottom: 2rem;
     font-weight: bold;
@@ -17,7 +20,7 @@
 
 .container__form__index {
     width: 100;
-    background-color: white;
+    background-color: $bg__partes;
     padding: 1rem 0;
     margin: 2rem 0;
     font-weight: bold;
