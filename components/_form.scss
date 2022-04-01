@@ -4,7 +4,9 @@
 /*form*/
  
 .container__data {
-    @extend %flex__column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: $bg__partes;
     margin-top: 3rem;
     margin-bottom: 2rem;
