@@ -1,11 +1,10 @@
 @import "../base/variables";
+@import "../components/extends";
 
 /*form*/
-
+ 
 .container__data {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @extend %flex__column;
     background-color: $bg__partes;
     margin-top: 3rem;
     margin-bottom: 2rem;
@@ -53,6 +52,8 @@
         }
     }
 }
+
+/*media form*/
 
 @media (min-width: 720px) {
 

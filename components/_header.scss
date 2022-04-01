@@ -1,7 +1,8 @@
 @import "../base/variables";
+@import "../components/extends";
 
 /*header*/
-
+ 
 header {
     display: flex;
     flex-direction: row;
@@ -32,6 +33,8 @@ header {
         }
     }
 }
+
+/*media header*/
 
 @media (min-width: 720px) {
     header {

@@ -52,7 +52,7 @@ main {
         align-items: center;
         gap: 3rem;
         margin: 2rem 0;
-        
+         
         .container__fotoproducto__infoproducto {
             width: 18rem;
             height: 18rem;
@@ -96,6 +96,8 @@ main {
         }
     }
 }
+
+/*media main*/
 
 @media (min-width: 720px) {
     main {

@@ -1,4 +1,12 @@
 
+@import "../base/variables";
+
+@import "../components/maps"; 
+
+@import "../components/extends";
+
+@import "../components/mixin";
+
 @import "../components/generalidades";
 
 @import "../components/body";    
@@ -9,4 +17,4 @@
 
 @import "../components/form";
 
-@import "../components/footer"; 
+@import "../components/footer";   
